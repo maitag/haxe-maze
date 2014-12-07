@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="genMazeSimple" package="de.maitag.genMazeSimple" version="0.3.0" company="Sylvio Sell - maitag" />
+	<app main="Main" path="Export" file="genMazeSimple" />
+	
+	<window width="0" height="0" background="#000000" />
+	<window if="desktop||flash" width="800" height="600" resizable="true" />
+	
+	<source path="Source" />
+	
+	<haxelib name="lime" />
+	<!--<haxedef name="canvas" /> -->
+	<!--<haxedef name="dom" /> -->
+	
+	<assets path="Assets" rename="assets" exclude="*.svg" />
+	<icon path="Assets/lime.svg" />
+	
+</project>
